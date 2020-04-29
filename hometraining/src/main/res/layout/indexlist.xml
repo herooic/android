@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="958dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+            <TextView
+
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:tag="g"
+                android:text="스쿼트"
+                android:textColor="#FFFFFF"
+                android:textScaleX="@android:dimen/app_icon_size"
+                android:textSize="30sp" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_weight="1" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:layout_weight="1" >
+
+            </ListView>
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView2"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:text="MultiAutoCompleteTextView" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

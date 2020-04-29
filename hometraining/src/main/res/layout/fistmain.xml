@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/design_default_color_secondary"
+        android:gravity="center"
+        android:text="방구석 트레이닝"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@color/cardview_shadow_end_color"
+        app:srcCompat="@drawable/mainf" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0"
+        android:layout_marginRight="0"
+        android:layout_marginBottom="0"
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="방구석에서 마동석, 김사랑 쌉가능 프로젝트!! "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="0"
+        android:layout_marginLeft="0"
+        android:layout_marginTop="0"
+        android:layout_marginRight="0"
+        android:layout_marginBottom="0"
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="※단!! 얼굴은 변하지않습니다.  ※무리한 운동은 신체를 망가트립니다."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_margin="0"
+        android:layout_marginLeft="0"
+        android:layout_marginTop="0"
+        android:layout_marginRight="0"
+        android:layout_marginBottom="0"
+        android:gravity="clip_horizontal|center|clip_vertical"
+        android:text="※방구석 헬창주의!"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:background="@drawable/button_d1"
+        android:gravity="center"
+        android:text="시작하기!"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="right|end"
+        android:text="by 사나이정헤인 / YD막둥이혀누   " />
+
+</LinearLayout>
